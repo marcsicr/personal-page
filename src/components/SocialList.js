@@ -5,19 +5,25 @@ import { ReactComponent as Github } from 'icons/github.svg'
 import { ReactComponent as Instagram } from 'icons/instagram.svg'
 import {styled} from '@mui/material'
 
+
 const CustomSvg = styled(SvgIcon)(({ theme }) => ({
   color:theme.palette.primary.main
-}));
+}))
+
+const SocialAvatar = styled(Avatar)(({ theme }) => ({
+  backgroundColor:theme.palette.background.primary,
+  marginRight: '.5rem' 
+}))
 
 const SocialNetworkLink = ({ alt, svg }) => {
   return (
-    <Avatar sx={{ background: 'white', marginRight: '.5rem' }}>
+    <SocialAvatar>
       <CustomSvg
         alt={alt}
         component={svg}
         viewBox='0 0 28 28'
       />
-    </Avatar>
+    </SocialAvatar>
   )
 }
 

@@ -3,6 +3,7 @@ import { Box, Typography, Stack } from '@mui/material'
 import { makeStyles } from '@mui/styles'
 import LanguageContext from 'components/context/LanguageContext'
 import Section from 'components/sections/Section'
+import { useTheme } from '@emotion/react'
 
 const useStyles = makeStyles((theme) => ({
   profilePicture: {
@@ -17,8 +18,11 @@ const useStyles = makeStyles((theme) => ({
 export default function SectionPresentation() {
   const classes = useStyles()
   const {messages} = useContext(LanguageContext)
+  const {palette} = useTheme()
+  console.log(palette)
+  
   return (
-    <Section background={'#DCDCDC'}>
+    <Section background={palette.background.secondary}>
       <Stack direction={{ xs: 'column', md: 'row' }} gap={'2rem'}>
         <Box>
           <Typography variant="h1" noWrap fontWeight={'bold'} paddingBottom={'15px'} sx={{color: 'primary.main'}}>

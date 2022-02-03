@@ -19,7 +19,7 @@ const GalleryBox = styled(Box)(({ theme }) => ({
   direction: 'row',
   alignItems: 'center',
   justifyContent: 'center',
-  zIndex:'1'
+  zIndex:'1',
 }))
 
 const ImageBoxContainer = styled(Box)(({ theme }) => ({
@@ -29,7 +29,7 @@ const ImageBoxContainer = styled(Box)(({ theme }) => ({
     alignItems: 'center',
     flexDirection: 'column',
     '@media (orientation: landscape)': {
-        width:'60vw'
+        maxWidth:'60vw'
       }
   }))
 
@@ -91,8 +91,8 @@ export default function Gallery({ pics,show }) {
               position={'relative'}
               width={'auto'}
               height={'100%'}
-              display={'flex'}
               justifyContent={'center'}
+              maxHeight={'70vh'}
             >
               <img
                 alt="Gallery"
@@ -104,7 +104,7 @@ export default function Gallery({ pics,show }) {
                 }}
               />
               <Button onClick={()=> closeGallery()}
-                style={{ position: 'absolute', top: '5px', right: '5px', color:'white', backgroundColor:'rgba(0,0,0,.6)' }}
+                style={{ position: 'absolute', top: '5px', right: '15px', color:'white', backgroundColor:'rgba(0,0,0,.6)' }}
                 startIcon={<CancelIcon/>}
               >
                 Close

@@ -4,6 +4,7 @@ import { Stack, Box,Typography,Paper } from '@mui/material'
 import { styled } from '@mui/material/styles'
 import { makeStyles } from '@mui/styles'
 import icons from 'components/sections/Language/icons.json'
+import LanguageIcon from '@mui/icons-material/Language';
 
 const FlagsList = styled(Stack)(({ theme }) => ({
   listStyleType:'none',
@@ -75,7 +76,11 @@ export default function LanguagePicker() {
       onClick={()=> setShow(true)}
     >
       <Box paddingBottom={'12px'}>
-        <LanguageItem alt={currentIcon.alt} url={currentIcon.ref} name={currentIcon.alt}/>
+        <Stack direction={'row'}>
+          <LanguageIcon sx={{color:'primary.main'}}/>
+          <Typography>{currentIcon.alt}</Typography>
+        </Stack>
+        {/* <LanguageItem alt={currentIcon.alt} url={currentIcon.ref} name={currentIcon.alt}/> */}
       </Box>
       <LanguagesList showList={show} />
     </Stack>

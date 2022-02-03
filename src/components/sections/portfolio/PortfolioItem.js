@@ -13,7 +13,7 @@ export default function PortfolioItem({
 
   return (
    
-      <Grid container   sx={{ backgroundColor: 'background.main' }}>
+      <Grid container   sx={{ backgroundColor: 'card.main' }}>
       <ProjectPicture alt={id} urlPic={pic} gallery={gallery} />    
       <ProjectDescription title={title} description={description}/>
       </Grid>

@@ -24,13 +24,17 @@ const theme = createTheme({
 
   palette:{
     primary:{
-      main:'#54b689'
+      main:'#4682B4'
     },
     selected:{
       main:'#DCDCDC'
     },
-    background:{
+    card:{
       main:'#f2f2f2'
+    },
+    background:{
+      primary:'#FFFAFA',
+      secondary:'#f2f2f2'
     },
 
 

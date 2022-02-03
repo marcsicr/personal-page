@@ -5,7 +5,7 @@ const WhiteButton = styled(Button)(({theme}) => ({
   backgroundColor:'white',
   color:'black',
   '&:hover':{
-    backgroundColor:'#FFFACD'
+    backgroundColor:theme.palette.primary.main
   }
 }))
 
