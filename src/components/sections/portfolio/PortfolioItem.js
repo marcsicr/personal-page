@@ -1,6 +1,6 @@
 import { Grid, Typography, Stack } from '@mui/material'
 import StyledHtmlMessage from 'components/ui/StyledHtmlMessage'
-import ImageMaskBox from 'components/ui/ImageMaskBox'
+import GalleryButton from 'components/ui/GalleryButton'
 import { Box } from '@mui/system'
 
 export default function PortfolioItem({
@@ -10,16 +10,20 @@ export default function PortfolioItem({
   description,
   gallery
 }) {
+
   return (
    
       <Grid container   sx={{ backgroundColor: 'background.main' }}>
-      <ProjectPicture alt={id} urlPic={pic} gallery={gallery}/>    
+      <ProjectPicture alt={id} urlPic={pic} gallery={gallery} />    
       <ProjectDescription title={title} description={description}/>
       </Grid>
   )
 }
 
 const ProjectPicture = ({alt,urlPic,gallery})=> {
+
+  
+
 return <Grid
           item
           md={12}
@@ -32,11 +36,13 @@ return <Grid
           flex={1}
         >
           <Box style={{height:'250px', width:'100%', background:`url(${urlPic}) no-repeat`, backgroundSize:'cover', backgroundPosition: 'center' }}/>   
-          <ImageMaskBox images={gallery} />
+          <GalleryButton images={gallery} />
         </Grid>
 }
 
 const ProjectDescription = ({title,description}) =>{
+
+ 
 
     return <Grid item md={12} xl={7}>
           <Stack direction={'column'} margin={'0 auto'} padding={'10px 15px'}>

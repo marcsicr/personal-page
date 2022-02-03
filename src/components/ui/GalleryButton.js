@@ -1,5 +1,5 @@
 import {useState,useContext} from 'react'
-import {Box} from '@mui/material'
+import {Box,useMediaQuery,Button} from '@mui/material'
 import { styled } from '@mui/material/styles'
 import ImageIcon from '@mui/icons-material/Image';
 import WhiteButton from 'components/ui/WhiteButton'
@@ -20,11 +20,15 @@ const MaskBox = styled(Box)(({ theme }) => ({
     }
   }))
 
-export default function ImageMaskBox({images}){
+export default function GalleryButton({images}){
     const [show,setShow] = useState(false)  
     const {showGallery} = useContext(GalleryContext)
+
+    const touchScreen = useMediaQuery('(hover:none)');
+    console.log(touchScreen)
    
-    return <MaskBox visibility={show} onMouseEnter={() => setShow(true)} onMouseLeave={()=> setShow(false)}>
+    return touchScreen? <Button onClick={() => showGallery({pics:images})}startIcon={<ImageIcon/>} sx={{position:'absolute', top:'5px', right:'5px', color:'white', backgroundColor:'rgba(0,0,0,.6)'}}>Gallery</Button>: 
+    <MaskBox visibility={show} onMouseEnter={() => setShow(true)} onMouseLeave={()=> setShow(false)}>
       { show? <WhiteButton onClick={() => showGallery({pics:images})} variant='contained' startIcon={<ImageIcon/>}>Gallery</WhiteButton> : null}
     </MaskBox>
   }
