@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "presentation": "Hola! Em dic Marc i sóc desenvolupador d'aplicacions. Benvingut a la meva pàgina personal!"
+  },
+  "landing": {
+    "presentation": "Primer de tot, hola i benvingut a la meva pàgina personal. Sóc en Marc i em dedico al desenvolupament de programari. També tinc un gran interès per al desenvolupament de videojocs en dispositius mòbils. En aquesta pàgina anire publicant els projectes que vagi realitzant."
+  },
+  "headerSkills": "Les meves habilitats",
+  "skills": [
+    {
+      "id": "web",
+      "title": "Desenvolupament web",
+      "description": "Maquetació de pàgines web utilitzant els últims standards: <b>HTML5</b> i <b>CSS3</b>. Disseny responsiu i <i>media queries</i>. Tinc coneixaments de frameworks <b>Javascript</b> per al desenvolupament d'aplicacions web, en especial, <b> ReactJS</b>."
+    },
+    {
+      "id": "lang",
+      "title": "Llenguatges de programació",
+      "description": "Coneixament de llenguatges de programació utilitzants ampliament tant per al desenvolupament d'aplicacions web, com per aplicacions natives. En especial <b>Javascript</b>, <b>Java</b> i <b>C#</b>."
+    },
+    {
+      "id": "ms",
+      "title": "Backend i Micro-serveis",
+      "description": "Desenvolupament de microserveis que nodreixin de dades i aportin funcionalitat a les aplicacions. En aquest sentit, tinc coneixaments sobre <b>Spring Framework</b> i <b>NodeJS</b>. Serveis <b>REST</b>, formats de dades <b>JSON</b> i <b>XML</b>. Autenticació d'usuari mitjançant <b>JWT</b>. Generació i ús de contenidors <b>Docker</b>."
+    },
+    {
+      "id": "db",
+      "title": "Bases de dades",
+      "description": "Domini de <b>SQL</b> (DDL + DML) en SGBD relacionals (taules, vistes, <i>triggers</i>). <b>PostgreSQL</b>, <b>Mysql</b>, <b>SQL Server</b>. En algun dels meus projectes personals he utilizat l'ORM <b>Hibernate</b>. Pel que fa a SGBD No-SQL tinc nocions de <b>MongoDB</b> juntament amb <b>Mongoose</b>."
+    },
+    {
+      "id": "games",
+      "title": "Videojocs",
+      "description": "Coneixament del motor de creació de videojocs <b>Unity</b>. Com a projecte final de carrera vaig decidir crear un joc d'aventura en 2D anomenat <i>The Little Wizard</i> i, recentment, he realitzat un clon del famós joc <i>Crossy Road</i> per practicar el desenvolupament de jocs en 3D."
+    },
+    {
+      "id": "tools",
+      "title": "Eines",
+      "description": "Control de versions mitjançant <b>Git</b> i les plataformes <b>github/gitlab</b>. Testing d'apis REST mitjançant <b>Postman</b>, Modelatge <b>UML</b> amb <b>MagicDraw</b>..."
+    }
+  ],
+  "headerPortfolio": "Projectes recents",
+  "projects": [
+    {
+      "id": "gifty",
+      "title": "Gifty",
+      "description": "Aplicació web que permet cercar i guardar gifs com a favorits. La part <i>front end</i> està realitzada amb <b>ReactJS</b> i, pel que fa el <i>backend end</i> hi ha dues implementacions possibles. La primera realitzada amb <b>JavaEE (Wildfly) + PostgreSQL</b> i la segona amb <b>NodeJS i MongoDB</b>. Els gifs s'obtenen utilitzant l'API REST de <a href='https://developers.giphy.com/'>Giphy</a>."
+    },
+    {
+      "id": "crossy",
+      "title": "Crossy croak",
+      "description": "Videojoc 3D realitzat amb <b>Unity</b> des de zero per aprendre. Es tracta d'un clon del famós videojoc <a href='https://en.wikipedia.org/wiki/Crossy_Road'>Crossy Road</a>. El joc inclou personatges que apareixen en joc original i d'altres que no. Els models 3D els he realitzat amb <a href='https://www.voxelmade.com/magicavoxel/'>MagicaVoxel</a>. Hi podeu jugar en <a href='https://drive.google.com/file/d/10bgVgbwUZohUiYiPcRSBHnFkwYV-iBgj/view?usp=sharing'>Android<a/> o en <a href='https://drive.google.com/file/d/1UjAmdIML5MPjdqZE98e4HIjWVcjp3KFr/view?usp=sharing'>PC</a>."
+    },
+    {
+      "id": "tlw",
+      "title": "The little Wizard",
+      "description": "Es tracta del primer videojoc que vaig crear en <b>Unity</b>. Consisteix en un joc d'aventura en 2D el qual un mag ha d'aprendre encanteris, resoldre puzles i derrotar un monstre a la pantalla final. Si ho desitgeu, el podeu descarregar <a href='https://github.com/marcsicr/littlewizard/releases/download/Final/LittleWizardFinal.zip'>aqui</a>"
+    }
+  ]
+}

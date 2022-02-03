@@ -1,0 +1,15 @@
+{
+    "gifty":{
+      "sm":"/portfolio/gifty/small.jpg",
+      "pics":["/portfolio/gifty/gifty1.jpg","/portfolio/gifty/gifty2.jpg","/portfolio/gifty/gifty3.jpg"]
+    },
+    "crossy":{
+      "sm":"/portfolio/crossy/small.png",
+      "pics":["/portfolio/crossy/crossy1.jpg","/portfolio/crossy/crossy2.jpg","/portfolio/crossy/crossy3.jpg", "/portfolio/crossy/crossy4.jpg","/portfolio/crossy/crossy5.jpg","/portfolio/crossy/crossy6.jpg"]
+    },
+    "tlw":{
+      "sm":"/portfolio/tlw/tlw1.jpg",
+      "pics":["/portfolio/tlw/tlw1.jpg","/portfolio/tlw/tlw2.jpg","/portfolio/tlw/tlw3.jpg"]
+    }
+}
+  

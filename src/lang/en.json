@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "presentation": "Hi! My name is Marc and I'm a Junior Software Developer. Welcome to my personal website!"
+  },
+  "landing": {
+    "presentation": "Hello and welcome to my personal web page. My name is Marc and I am a software developer specialized in front end and backend development for web apps. I’m also interested in game development for mobile devices. On this page I'll be posting the projects that I make."
+  },
+  "headerSkills": "My tech stack",
+  "skills": [
+    {
+      "id": "web",
+      "title": "Web development",
+      "description": "Prototyping of web pages using latest standards like <b>HTML5</b>, <b>CSS3</b>, responsive design and media queries. I'm familiar with new Javascript frameworks and , in special, <b>ReactJS</b> is the one I've used the most."
+    },
+    {
+      "id": "lang",
+      "title": "Programming languages",
+      "description": "I'm experienced with many programming languages. The three languages that I use the most are <b>Java</b>, <b>Javascript</b> and <b>C#.</b>"
+    },
+    {
+      "id": "ms",
+      "title": "Backend & Micro services",
+      "description": "I'm faimiliar with backend & micro services development. On this area I used <b>Spring Framework</b> and also <b>Nodejs</b>. User authentication using <b>JWT</b>, <b>JSON</b> and <b>XML</b> formats. <b>Docker</b> containers..."
+    },
+    {
+      "id": "db",
+      "title": "Databases",
+      "description": "I'm experienced with <b>SQL</b> (DDL+DML) on relational databases (tables, views, triggers). For my personal projects I normally use <b>Postgresql</b>, but I'm also familiar with <b>MySql</b> and <b>SqlServer</b>. In addition, In some of my personal projects I've used a NoSQL DB like <b>MongoDB</b> with Mongoose library"
+    },
+    {
+      "id": "games",
+      "title": "Games",
+      "description": "I'm familiar with the <b>Unity</b> game engine. So far I've make one 2D adventure game and recently I did a clone of the famous Crossy Road for practising 3D game development"
+    },
+    {
+      "id": "tools",
+      "title": "Tools",
+      "description": "Like the vast majory of developers I use <b>Git</b> for version control with services like <b>Github</b> and <b>Gitlab</b>. Other tools that I'm familiar with are <b>Postman</b> for testing REST services and <b>MagicDraw</b> for UML modeling"
+    }
+  ],
+  "headerPortfolio": "My recent projects",
+  "projects": [
+    {
+      "id": "gifty",
+      "title": "Gifty",
+      "description": "Web application for searching and saving your favorite gifs using <a href='https://developers.giphy.com/'>Giphy's</a> API service. The front end is made with <b>ReactJS</b>. For the backend I've made two implementations using different technologies. The first one was made with <b>Wildfly + PostgreSQL</b> and the second one with <b>NodeJS + MongoDB</b>."
+    },
+    {
+      "id": "crossy",
+      "title": "Crossy croak",
+      "description": "3D game made with <b>Unity</b> for learning purposes. It is a clone of the famous game <a href='https://en.wikipedia.org/wiki/Crossy_Road'>Crossy Road</a>. The game includes some characters present on the original game and some created by myself. All 3D models have been made with <a href='https://www.voxelmade.com/magicavoxel/'>MagicaVoxel</a>. Actually, you can play it on <a href='https://drive.google.com/file/d/10bgVgbwUZohUiYiPcRSBHnFkwYV-iBgj/view?usp=sharing'>Android<a/> and <a href='https://drive.google.com/file/d/1UjAmdIML5MPjdqZE98e4HIjWVcjp3KFr/view?usp=sharing'>PC</a>."
+    },
+    {
+      "id": "tlw",
+      "title": "The little Wizard",
+      "description": "It is a 2D adventure game made with <b>Unity</b>. The game tells the story of a young wizard. Throughout this story, the wizard will have to learn spells, defeat monstres and solve some puzzles. You can watch the <a href='https://www.youtube.com/watch?v=tIVACKYk134'>teaser</a> of the game here and, if you want to play it, download it from <a href='https://github.com/marcsicr/littlewizard/releases/download/Final/LittleWizardFinal.zip'>here</a>."
+    }
+  ]
+}

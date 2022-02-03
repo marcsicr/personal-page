@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "presentation": "Hola! Me llamo Marc y soy desarrollador software. Bienvenido a mi página personal!"
+  },
+  "landing": {
+    "presentation": "Antes que nada, hola y bienvenido a mi página personal. Soy Marc y me dedico al desarrollo software. Tambien me interesa el desarrollo de videojuegos en dispositivos móviles. En esta página ire publicando los proyectos que vaya realizando."
+  },
+  "headerSkills": "Mis habilidades",
+  "skills": [
+    {
+      "id": "web",
+      "title": "Desarrollo web",
+      "description": "Maquetación de páginas web utilizando los últimos standards: <b>HTML5</b> y <b>CSS3</b>. Disseño responsivo y <i>media queries</i>. Tengo conocimiento de frameworks <b>Javascript</b> para el desarrllo de aplicaciones web, en especial, <b> ReactJS</b>."
+    },
+    {
+      "id": "lang",
+      "title": "Lenguages de programación",
+      "description": "Conocimiento de distintos lenguages de programación utilizados ampliamente tanto para el desarrollo web, com para aplicaciones nativas. En especial <b>Javascript</b>, <b>Java</b> y <b>C#</b>."
+    },
+    {
+      "id": "ms",
+      "title": "Backend y Micro servicios",
+      "description": "Desarrollo de microservicios que proporcionen datos y doten funcionalidad a las aplicaciones. En este sentido, tengo conocimientos sobre <b>Spring Framework</b> y <b>NodeJS</b>. Servicios <b>REST</b>, formatos de datos <b>JSON</b> y <b>XML</b>. Autenticación de usuario mediante <b>JWT</b>. Generación y uso de contenidores <b>Docker</b>."
+    },
+    {
+      "id": "db",
+      "title": "Bases de datos",
+      "description": "Dominio de <b>SQL</b> (DDL + DML) en SGBD relacionales (tablas, vistas, <i>triggers</i>). <b>PostgreSQL</b>, <b>Mysql</b>, <b>SQL Server</b>. En alguno de mis proyectos personales he utilizado l'ORM <b>Hibernate</b>. Respecto a SGBD No-SQL tengo nociones de <b>MongoDB</b> junto con <b>Mongoose</b>."
+    },
+    {
+      "id": "games",
+      "title": "Videojuegos",
+      "description": "Conocimientos sobre el motor de creación de videojuegos <b>Unity</b>. Como proyecto final de carrera hice un juego de aventura en 2D llamado <i>The Little Wizard</i> y, recientemente, he realizado un clon del famóso juego <i>Crossy Road</i> para practicar el desarrollo en 3D."
+    },
+    {
+      "id": "tools",
+      "title": "Herramientas",
+      "description": "Control de versiones mediante <b>Git</b> y las plataformas relacionadas <b>github/gitlab</b>. Testing d'APIS REST mediante <b>Postman</b>, Modelado <b>UML</b> con <b>MagicDraw</b>..."
+    }
+  ],
+  "headerPortfolio": "Proyectos recientes",
+  "projects": [
+    {
+        "id":"gifty",
+        "title": "Gifty",
+        "description":"Aplicación web para buscar y añadir gifs como favoritos. La parte <i>front end</i> esta realizada con <b>ReactJS</b> y, respecto al <i>backend end</i> hay dos implementaciones possibles. La primera con <b>JavaEE (Wildfly) + PostgreSQL</b> y la segunda con <b>NodeJS y MongoDB</b>. Los gifs se obtienen mediante l'API REST de <a href='https://developers.giphy.com/'>Giphy</a>."
+    },
+    {
+        "id":"crossy",
+        "title": "Crossy croak",
+        "description":"Videojuego 3D realizado con <b>Unity</b> des de zero cómo aprendizaje. Se trata de un clon del famoso videojuego <a href='https://en.wikipedia.org/wiki/Crossy_Road'>Crossy Road</a>. El juego incluye personajes del juego original y otros creados por mi. Los modelos 3D los he creado con <a href='https://www.voxelmade.com/magicavoxel/'>MagicaVoxel</a>. El juego esta disponible en <a href='https://drive.google.com/file/d/10bgVgbwUZohUiYiPcRSBHnFkwYV-iBgj/view?usp=sharing'>Android<a/> y en <a href='https://drive.google.com/file/d/1UjAmdIML5MPjdqZE98e4HIjWVcjp3KFr/view?usp=sharing'>PC</a>."
+    },
+    {
+        "id":"tlw",
+        "title": "The little Wizard",
+        "description":"Se trata del primer juego que realizé en <b>Unity</b>. Consiste en un juego 2D de aventura en el cual un mago tiene que aprender hechizos, resolver puzzles y derrotar a un monstruo para pasarse el juego. Si lo deseas, puedes decargarlo <a href='https://github.com/marcsicr/littlewizard/releases/download/Final/LittleWizardFinal.zip'>aquí</a>"
+    }
+]
+}

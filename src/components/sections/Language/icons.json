@@ -1,0 +1,14 @@
+{
+    "en": {
+      "href": "/icons/lang/en.png",
+      "alt": "English"
+    },
+    "es": {
+      "href": "/icons/lang/es.png",
+      "alt": "Castellano"
+    },
+    "cat": {
+      "href": "/icons/lang/cat.png",
+      "alt": "Català"
+    }
+}
