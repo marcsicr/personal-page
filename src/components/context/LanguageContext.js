@@ -5,29 +5,26 @@ import Castellano from 'lang/es.json'
 
 const LanguageContext = React.createContext();
 
-// const local = navigator.language;
+const prefLocale = localStorage.getItem('locale') || 'en'
 
-// const dashIndex = local.indexOf('-')
-// const lang = dashIndex <= 0? local : local.substring(0,dashIndex)
+const getMessages = (locale) => {
+    if(locale === 'en')
+        return English
+    else if(locale === 'es')
+        return Castellano
+    else
+        return Catala
+}
 
 export function LanguageContentProvider (props){
 
-    const [locale,setLocale] = useState('en')
-    const [messages,setMessages] = useState(English)
-
-    const getMessages = (locale) => {
-        if(locale === 'en')
-            return English
-        else if(locale === 'es')
-            return Castellano
-        else
-            return Catala
-    }
+    const [locale,setLocale] = useState(prefLocale)
+    const [messages,setMessages] = useState(getMessages(prefLocale))
     
-
     const setLanguage = ({lang}) =>{
         const newLocale = lang
         setLocale(newLocale)
+        localStorage.setItem('locale',lang)
         const messages = getMessages(newLocale)
         setMessages(messages)
     }
