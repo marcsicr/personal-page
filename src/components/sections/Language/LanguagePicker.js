@@ -77,8 +77,8 @@ export default function LanguagePicker() {
     >
       <Box paddingBottom={'12px'}>
         <Stack direction={'row'}>
-          <LanguageIcon sx={{color:'primary.main'}}/>
-          <Typography>{currentIcon.alt}</Typography>
+          <LanguageIcon sx={{color:'background.primary'}}/>
+          <Typography sx={{color:'background.primary'}}>{currentIcon.alt}</Typography>
         </Stack>
         {/* <LanguageItem alt={currentIcon.alt} url={currentIcon.ref} name={currentIcon.alt}/> */}
       </Box>
