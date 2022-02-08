@@ -58,7 +58,7 @@ export default function Game({ path }) {
 
         {progression < 1 ? (
           <>
-            <Typography>Loading game {progression * 100} %...</Typography>
+            <Typography>Loading game {Math.round(progression * 100)} %...</Typography>
             <LinearProgress variant="determinate" value={progression * 100} />
           </>
         ) : (
