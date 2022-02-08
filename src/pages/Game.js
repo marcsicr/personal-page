@@ -25,25 +25,25 @@ const GameBox = styled(Box)(({ theme }) => ({
   position: 'relative'
 }))
 
-export default function Game({ path }) {
-  const gameFolder = 'games/crossy'
+const gameFolder = 'games/crossy'
 
+const unityContext = new UnityContext({
+  loaderUrl: `${gameFolder}/web.loader.js`,
+  dataUrl: `${gameFolder}/web.data`,
+  frameworkUrl: `${gameFolder}/web.framework.js`,
+  codeUrl: `${gameFolder}/web.wasm`
+})
+
+const changeToFullScreen = () => {
+  unityContext.setFullscreen(true)
+}
+
+export default function Game() {
   const [progression, setProgression] = useState(0)
-
-  const unityContext = new UnityContext({
-    loaderUrl: `${gameFolder}/web.loader.js`,
-    dataUrl: `${gameFolder}/web.data`,
-    frameworkUrl: `${gameFolder}/web.framework.js`,
-    codeUrl: `${gameFolder}/web.wasm`
-  })
 
   unityContext.on('progress', function (progression) {
     setProgression(progression)
   })
-
-  function handleOnClickFullscreen() {
-    unityContext.setFullscreen(true)
-  }
 
   return (
     <>
@@ -58,26 +58,34 @@ export default function Game({ path }) {
 
         {progression < 1 ? (
           <>
-            <Typography>Loading game {Math.round(progression * 100)} %...</Typography>
+            <Typography>
+              Loading game {Math.round(progression * 100)} %...
+            </Typography>
             <LinearProgress variant="determinate" value={progression * 100} />
           </>
         ) : (
-          <IconButton
-            sx={{ position: 'absolute', right: 0, color: 'white' }}
-            onClick={() => {
-              handleOnClickFullscreen()
-            }}
-          >
-            <FullscreenIcon style={{ fontSize: '36px' }} />
-          </IconButton>
+          <FullScreenBtn />
         )}
 
         <Unity
-          onClick={handleOnClickFullscreen}
+          onClick={() => changeToFullScreen}
           unityContext={unityContext}
           style={{ height: '100%', width: '100%' }}
         />
       </GameBox>
     </>
+  )
+}
+
+const FullScreenBtn = () => {
+  return (
+    <IconButton
+      sx={{ position: 'absolute', right: 0, color: 'white' }}
+      onClick={() => {
+        changeToFullScreen()
+      }}
+    >
+      <FullscreenIcon style={{ fontSize: '36px' }} />
+    </IconButton>
   )
 }
