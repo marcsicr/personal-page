@@ -35,7 +35,7 @@ export default function SectionPresentation() {
         <Box display={'flex'} justifyContent={'center'}>
           <img
             alt="Marc Simon"
-            src={"https://picsum.photos/800/600"}
+            src={"/presentation.jpg"}
             className={classes.profilePicture}
           />
         </Box>
