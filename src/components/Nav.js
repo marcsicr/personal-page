@@ -12,7 +12,6 @@ import {
 } from '@mui/material'
 import { Menu } from '@mui/icons-material'
 import PersonIcon from '@mui/icons-material/Person'
-import EmailIcon from '@mui/icons-material/Email'
 import VideogameAssetIcon from '@mui/icons-material/VideogameAsset'
 
 import { useMediaQuery } from '@mui/material'
