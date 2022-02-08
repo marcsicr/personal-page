@@ -18,6 +18,11 @@ const theme = createTheme({
     psmall:{
       fontSize:'0.9rem',
       color:'grey'
+    },
+
+    navlink:{
+      fontSize:'1.2rem',
+      fontWeight:'bold'
     }
     
   },

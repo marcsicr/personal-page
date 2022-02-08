@@ -1,9 +1,10 @@
 {
   "nav": {
-    "presentation": "Hola! Me llamo Marc y soy desarrollador software. Bienvenido a mi página personal!"
+    "presentation": "Hola! Me llamo Marc y soy desarrollador software. Bienvenido a mi página personal!",
+    "about":"Sobre mi"
   },
   "landing": {
-    "presentation": "Hola y bienvenido a mi página personal. Soy Marc y me dedico al desarrollo software. Tambien me interesa el desarrollo de videojuegos en dispositivos móviles. En esta página ire publicando los proyectos que vaya realizando."
+    "presentation": "Hola y bienvenido a mi página personal. Soy Marc y me dedico al desarrollo software. También me interesa el desarrollo de videojuegos en dispositivos móviles. En esta página iré publicando los proyectos que vaya realizando."
   },
   "headerSkills": "Mis habilidades",
   "skills": [
@@ -48,7 +49,7 @@
     {
         "id":"crossy",
         "title": "Crossy croak",
-        "description":"Videojuego 3D realizado con <b>Unity</b> des de zero cómo aprendizaje. Se trata de un clon del famoso videojuego <a href='https://en.wikipedia.org/wiki/Crossy_Road'>Crossy Road</a>. El juego incluye personajes del juego original y otros creados por mi. Los modelos 3D los he creado con <a href='https://www.voxelmade.com/magicavoxel/'>MagicaVoxel</a>. El juego esta disponible en <a href='https://drive.google.com/file/d/10bgVgbwUZohUiYiPcRSBHnFkwYV-iBgj/view?usp=sharing'>Android<a/> y en <a href='https://drive.google.com/file/d/1UjAmdIML5MPjdqZE98e4HIjWVcjp3KFr/view?usp=sharing'>PC</a>."
+        "description":"Videojuego 3D realizado con <b>Unity</b> des de zero cómo aprendizaje. Se trata de un clon del famoso videojuego <a href='https://en.wikipedia.org/wiki/Crossy_Road'>Crossy Road</a>. El juego incluye personajes del juego original y otros creados por mi. Los modelos 3D los he creado con <a href='https://www.voxelmade.com/magicavoxel/'>MagicaVoxel</a>. Si lo deseas, puedes probar el juego <a href='/crossy'>aquí</a>. También esta disponible en <a href='https://drive.google.com/file/d/10bgVgbwUZohUiYiPcRSBHnFkwYV-iBgj/view?usp=sharing'>Android<a/> y en <a href='https://drive.google.com/file/d/1UjAmdIML5MPjdqZE98e4HIjWVcjp3KFr/view?usp=sharing'>PC</a>."
     },
     {
         "id":"tlw",

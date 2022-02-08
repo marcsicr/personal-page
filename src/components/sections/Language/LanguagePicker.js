@@ -75,10 +75,10 @@ export default function LanguagePicker() {
       onMouseEnter={() => setShow(true)}
       onClick={()=> setShow(true)}
     >
-      <Box paddingBottom={'12px'}>
-        <Stack direction={'row'}>
+      <Box paddingBottom={'12px'} width={"100%"}>
+        <Stack direction={'row'} justifyContent={"center"}>
           <LanguageIcon sx={{color:'background.primary'}}/>
-          <Typography sx={{color:'background.primary'}}>{currentIcon.alt}</Typography>
+          <Typography variant="navlink" sx={{color:'background.primary', marginLeft:'10px'}}>{currentIcon.alt}</Typography>
         </Stack>
         {/* <LanguageItem alt={currentIcon.alt} url={currentIcon.ref} name={currentIcon.alt}/> */}
       </Box>

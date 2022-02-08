@@ -1,6 +1,7 @@
 {
   "nav": {
-    "presentation": "Hi! My name is Marc and I'm a Junior Software Developer. Welcome to my personal website!"
+    "presentation": "Hi! My name is Marc and I'm a Software Developer. Welcome to my personal website!",
+    "about":"About me"
   },
   "landing": {
     "presentation": "Hello and welcome to my personal web page. My name is Marc and I am a software developer specialized in front end and backend development for web apps. I’m also interested in game development for mobile devices. On this page I'll be posting the projects that I make."
@@ -48,7 +49,7 @@
     {
       "id": "crossy",
       "title": "Crossy croak",
-      "description": "3D game made with <b>Unity</b> for learning purposes. It is a clone of the famous game <a href='https://en.wikipedia.org/wiki/Crossy_Road'>Crossy Road</a>. The game includes some characters present on the original game and some created by myself. All 3D models have been made with <a href='https://www.voxelmade.com/magicavoxel/'>MagicaVoxel</a>. Actually, you can play it on <a href='https://drive.google.com/file/d/10bgVgbwUZohUiYiPcRSBHnFkwYV-iBgj/view?usp=sharing'>Android<a/> and <a href='https://drive.google.com/file/d/1UjAmdIML5MPjdqZE98e4HIjWVcjp3KFr/view?usp=sharing'>PC</a>."
+      "description": "3D game made with <b>Unity</b> for learning purposes. It is a clone of the famous game <a href='https://en.wikipedia.org/wiki/Crossy_Road'>Crossy Road</a>. The game includes some characters present on the original game and some created by myself. All 3D models have been made with <a href='https://www.voxelmade.com/magicavoxel/'>MagicaVoxel</a>. Actually, you can play it <a href='/crossy'>here</a> on your browser. But if you prefer, there are also realeases for <a href='https://drive.google.com/file/d/10bgVgbwUZohUiYiPcRSBHnFkwYV-iBgj/view?usp=sharing'>Android<a/> and <a href='https://drive.google.com/file/d/1UjAmdIML5MPjdqZE98e4HIjWVcjp3KFr/view?usp=sharing'>PC</a>."
     },
     {
       "id": "tlw",
